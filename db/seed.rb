@@ -1,3 +1,11 @@
-require 'faker'
+require 'pg'
+require 'pry'
+require 'active_record'
 
-puts Faker::Name.name
+require_relative 'connection'
+require_relative '../models/instructor'
+require_relative '../models/student'
+
+binding.pry
+
+puts "bob"
