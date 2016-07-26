@@ -1,0 +1,5 @@
+<% @instructors.each do |instructor| %>
+  <div class="instructor">
+    <h2><a href='/instructors/<%= instructor.id %>'><%= instructor.first_name %></a></h2>
+  </div>
+<% end %>
